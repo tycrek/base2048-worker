@@ -9,4 +9,5 @@ export default new H<{}>()
 	.get('/:f{(de|en)code}/:i', ({ req, text }) => {
 		const { f, i } = req.param();
 		return text((f === 'encode' ? e : d)(i));
-	});
+	})
+	.get('/', ({ redirect: r }) => r('https://github.com/tycrek/base2048-worker'));
