@@ -1,6 +1,6 @@
 {
 	"name": "base2048-worker",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"author": "tycrek <sylvie@tycrek.com> (https://tycrek.com)",
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20231121.0",
