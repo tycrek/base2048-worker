@@ -1,0 +1,4 @@
+name='base2048-worker'
+main='src/index.ts'
+compatibility_date='2023-11-22'
+compatibility_flags=['nodejs_compat']
